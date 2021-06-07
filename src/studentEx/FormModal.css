@@ -1,0 +1,16 @@
+.my-modal {
+    background-color:lightgreen;
+  }
+hr{
+color: forestgreen;      
+} 
+.redInput{
+  background-color: rgb(251, 95, 95)!important;
+}
+span{
+  color: red;
+  font-size: 12px;
+  display: block;
+}
+p{color: rgb(52, 20, 181);}
+

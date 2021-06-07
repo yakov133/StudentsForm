@@ -1,0 +1,20 @@
+Table{
+    margin-top: 100px;
+}
+h1{
+    padding-top: 40px;
+    color:rgb(7, 205, 0)
+}
+.down{padding-top:100px ;}
+
+.justify-content-md-center{
+    padding-top: 20px;
+}
+Table{background-color: yellow ;}
+Table thead th{
+    background-color: black;
+    color:white
+}
+th{
+    color:teal;
+}
