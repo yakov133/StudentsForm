@@ -126,6 +126,7 @@ export default function Rigester(props) {
     }
 
     setShow(!allTrueValues);
+    
     if (allTrueValues) {
       let DAL = JSON.parse(localStorage.getItem("DAL"));
       if (!DAL) {

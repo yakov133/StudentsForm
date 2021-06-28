@@ -6,7 +6,7 @@ import "./Table.css";
 
 export default function StudentsTable(props) {
   
-  const [card, setCard] = useState(false);
+  const [card, setCard] = useState({stat:false});
   const [order,setOrder] = useState(true);
   
   // // props.data.sort((a,b)=>{return b.username - a.username})
@@ -31,7 +31,7 @@ export default function StudentsTable(props) {
       
       <Container className="d-flex">
       <Col>
-      <Table striped bordered hover>
+      <Table  striped bordered hover>
         <thead>
           <tr>
             <th>Usernames:</th>
@@ -41,7 +41,7 @@ export default function StudentsTable(props) {
           {order && props.data
             ? props.data.map((elm) => {
                 return (
-                  <tr onClick={() => setCard({state:!card.state,id:elm.id})}>
+                  <tr onClick={() => setCard({state: !card.state, id: elm.id})}>
                     <th>{elm.username}</th>
                   </tr>
                 );
